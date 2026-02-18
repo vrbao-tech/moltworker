@@ -54,6 +54,10 @@
       "new_sqlite_classes": ["Sandbox"],
       "tag": "v1",
     },
+    {
+      "tag": "v2",
+      // 空的 migration 来触发重新应用
+    }
   ],
   // R2 bucket for persistent storage (moltbot data, conversations, etc.)
   "r2_buckets": [
